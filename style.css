@@ -1,0 +1,84 @@
+html, body{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Bitter', serif;
+    font-family: 'Carter One', cursive;
+    font-family: 'Domine', serif;
+
+}
+
+.container{
+    /* background-color: rgb(236, 158, 240); */
+    width: 500px;
+}
+
+#inputField{
+    width: 393px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: -5px;
+}
+
+
+#addToDO{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    /* margin-top: 3px; */
+}
+
+button{
+    height: 49px;
+    width: 101px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 0px 10px 10px 0px;
+    /* background-color:#e79ae7; */
+    background-color: #9ae7c6;;
+    outline: none;
+}
+
+
+.box{
+    width: 500px;
+    /* background-color: rgb(239 206 239); */
+    background-color: rgb(206 239 226);
+    height: 700px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 3px 60px 0px 60px;
+    box-shadow: 4px 4px 6px grey;
+    
+}
+
+.paragraph-style{
+    margin: 0;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    margin: 1.2px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+
+
+.to-dos{
+    margin-top: 25px;
+}
